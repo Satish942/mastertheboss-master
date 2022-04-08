@@ -1,0 +1,3 @@
+== Netty HTTP Server example
+
+Source code for tutorial: http://www.mastertheboss.com/jboss-frameworks/netty/how-to-create-an-http-server-with-netty/

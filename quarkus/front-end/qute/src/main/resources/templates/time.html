@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+{#include base.html}
+{/include}
+<body>
+    <h2>Available data formats</h2>
+
+    <table class="blueTable">
+        <thead>
+        <tr>
+
+            <th>Name</th>
+            <th>Description</th>
+            <th>Wiki link</th>
+        </tr>
+        </thead>
+        <tbody>
+        {#for item in data}
+        <tr>
+            <td>{item.name}</td>
+            <td>{item.description}</td>
+            <td><a href="{item.wiki}">{item.wiki}</a></td>
+        </tr>
+        {/for}
+        </tbody>
+    </table>
+{#include footer.html}
+{/include}    
+</body>
+</html>
+

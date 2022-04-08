@@ -1,0 +1,3 @@
+== Drools with Maven example
+
+Tutorial for this example: http://www.mastertheboss.com/jboss-jbpm/drools/drools-and-maven-example-project
